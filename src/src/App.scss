@@ -1,0 +1,25 @@
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.capy-facts-area {
+    flex: 1 0 0;
+}
+
+.capy-image {
+    flex: 1 0 0;
+    padding: 0 0 0 1rem;
+
+    img {
+        width: 300px;
+        border: 1px solid #000;
+    }
+}
