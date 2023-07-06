@@ -4,22 +4,53 @@ function App() {
   return (
     <>
       <div className='container is-max-desktop'>
-        <h1 className='is-size-1'>Capybara Enthusiast</h1>
+        <header className='wrapper'>
+          <div className='grid-item'>
+            <h1 className='is-size-1'>Capybara Enthusiast</h1>
+          </div>
+          <div className='header-button-area grid-item'>
+            <div className='button-wrapper'>
+              <button className='button is-success'>Login</button>
+              <button className='button is-success last'>Sign Up</button>
+            </div>
+          </div>
+        </header>
 
-        <section className='table-of-contents'>
-          <h3>Table of contents</h3>
-          <ol>
-            <li>
-              <a href='#basic'>About</a>
-            </li>
-            <li>
-              <a href='#ecology'>Ecology</a>
-            </li>
-          </ol>
-        </section>
+        <div className='level'>
+          <section className='table-of-contents level-left'>
+            <div className='level-item'>
+              <h3>Table of contents</h3>
+              <ol>
+                <li>
+                  <a href='#basic'>About</a>
+                </li>
+                <li>
+                  <a href='#ecology'>Ecology</a>
+                </li>
+              </ol>
+            </div>
+          </section>
+
+          <section className='level-right mailing-list-area'>
+            <div className='level-item'>
+              <form>
+                <label htmlFor='email-address'>Email address</label>
+                <input
+                  type='email'
+                  className='input'
+                  id='email-address'
+                  placeholder='user@example.com'
+                />
+                <button className='button is-info'>
+                  Sign Up For Capybara Facts!
+                </button>
+              </form>
+            </div>
+          </section>
+        </div>
 
         <section className='wrapper' id='basic'>
-          <article className='capy-facts-area'>
+          <article className='capy-facts-area grid-item'>
             The capybara or greater capybara (Hydrochoerus hydrochaeris) is a
             giant cavy rodent native to South America. It is the largest living
             rodent and a member of the genus Hydrochoerus. The only other extant
@@ -34,14 +65,14 @@ function App() {
             threatened species.
           </article>
 
-          <figure className='capy-figure'>
+          <figure className='capy-figure grid-item'>
             <img src='/images/capybara-mexican.jpg' alt='Capybara español' />
             <figcaption>Capybara español</figcaption>
           </figure>
         </section>
 
         <section className='wrapper' id='ecology'>
-          <article className='capy-facts-area'>
+          <article className='capy-facts-area grid-item'>
             <h2>Ecology</h2>
             Its common name is derived from Tupi ka'apiûara, a complex
             agglutination of kaá (leaf) + píi (slender) + ú (eat) + ara (a
@@ -50,7 +81,7 @@ function App() {
             hydrochaeris, comes from Greek ὕδωρ (hydor "water") and χοῖρος
             (choiros "pig, hog")
           </article>
-          <figure className='capy-figure'>
+          <figure className='capy-figure grid-item'>
             <img
               src='/images/Yellow-headed_caracara_(Milvago_chimachima)_on_capybara_(Hydrochoeris_hydrochaeris).JPG'
               alt='Yellow-headed caracara on a capybara'
