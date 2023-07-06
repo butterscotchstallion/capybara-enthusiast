@@ -6,7 +6,19 @@ function App() {
       <div className='container is-max-desktop'>
         <h1 className='is-size-1'>Capybara Enthusiast</h1>
 
-        <section className='wrapper'>
+        <section className='table-of-contents'>
+          <h3>Table of contents</h3>
+          <ol>
+            <li>
+              <a href='#basic'>About</a>
+            </li>
+            <li>
+              <a href='#ecology'>Ecology</a>
+            </li>
+          </ol>
+        </section>
+
+        <section className='wrapper' id='basic'>
           <article className='capy-facts-area'>
             The capybara or greater capybara (Hydrochoerus hydrochaeris) is a
             giant cavy rodent native to South America. It is the largest living
@@ -22,14 +34,15 @@ function App() {
             threatened species.
           </article>
 
-          <figure className='capy-image'>
-            <img src='/images/capybara-mexican.jpg' alt='Capybara' />
+          <figure className='capy-figure'>
+            <img src='/images/capybara-mexican.jpg' alt='Capybara español' />
+            <figcaption>Capybara español</figcaption>
           </figure>
         </section>
 
-        <section className='wrapper'>
+        <section className='wrapper' id='ecology'>
           <article className='capy-facts-area'>
-            <h2>Entymology</h2>
+            <h2>Ecology</h2>
             Its common name is derived from Tupi ka'apiûara, a complex
             agglutination of kaá (leaf) + píi (slender) + ú (eat) + ara (a
             suffix for agent nouns), meaning "one who eats slender leaves", or
@@ -37,8 +50,12 @@ function App() {
             hydrochaeris, comes from Greek ὕδωρ (hydor "water") and χοῖρος
             (choiros "pig, hog")
           </article>
-          <figure className='capy-image'>
-            <img src='/images/Yellow-headed_caracara_(Milvago_chimachima)_on_capybara_(Hydrochoeris_hydrochaeris).JPG' />
+          <figure className='capy-figure'>
+            <img
+              src='/images/Yellow-headed_caracara_(Milvago_chimachima)_on_capybara_(Hydrochoeris_hydrochaeris).JPG'
+              alt='Yellow-headed caracara on a capybara'
+            />
+            <figcaption>Yellow-headed caracara on a capybara</figcaption>
           </figure>
         </section>
       </div>
