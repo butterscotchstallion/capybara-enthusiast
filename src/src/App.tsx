@@ -16,23 +16,25 @@ function App() {
           </div>
         </header>
 
-        <div className='level'>
-          <section className='table-of-contents level-left'>
-            <div className='level-item'>
-              <h3>Table of contents</h3>
-              <ol>
-                <li>
-                  <a href='#basic'>About</a>
-                </li>
-                <li>
-                  <a href='#ecology'>Ecology</a>
-                </li>
-              </ol>
-            </div>
-          </section>
+        <div className='wrapper'>
+          <div className='grid-item'>
+            <section className='table-of-contents'>
+              <div className=''>
+                <h3>Table of contents</h3>
+                <ol>
+                  <li>
+                    <a href='#basic'>About</a>
+                  </li>
+                  <li>
+                    <a href='#ecology'>Ecology</a>
+                  </li>
+                </ol>
+              </div>
+            </section>
+          </div>
 
-          <section className='level-right mailing-list-area'>
-            <div className='level-item'>
+          <div className='grid-item'>
+            <section className='mailing-list-area'>
               <form>
                 <label htmlFor='email-address'>Email address</label>
                 <input
@@ -45,8 +47,8 @@ function App() {
                   Sign Up For Capybara Facts!
                 </button>
               </form>
-            </div>
-          </section>
+            </section>
+          </div>
         </div>
 
         <section className='wrapper' id='basic'>

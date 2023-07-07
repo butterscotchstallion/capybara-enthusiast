@@ -57,7 +57,7 @@ h2 {
 .wrapper>.header-button-area {
     margin: 1rem 0 0 0;
     justify-content: right;
-    gap: 1rem;
+    gap: 3rem;
     display: flex;
 
     .button-wrapper {
@@ -76,6 +76,9 @@ h2 {
 }
 
 .mailing-list-area {
+    justify-content: flex-end;
+    width: 80%;
+
     h3 {
         display: block;
     }
