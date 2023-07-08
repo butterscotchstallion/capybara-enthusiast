@@ -33,7 +33,7 @@ function App() {
             </section>
           </div>
 
-          <div className='grid-item'>
+          <div className='mailing-list-area-wrapper'>
             <section className='mailing-list-area'>
               <form>
                 <label htmlFor='email-address'>Email address</label>
