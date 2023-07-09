@@ -10,8 +10,12 @@ function App() {
           </div>
           <div className='header-button-area grid-item'>
             <div className='button-wrapper'>
-              <button className='button is-success'>Login</button>
-              <button className='button is-success last'>Sign Up</button>
+              <button className='button is-success'>
+                <i className='fas fa-lock'></i> Login
+              </button>
+              <button className='button is-success last'>
+                <i className='fas fa-add'></i> Sign Up
+              </button>
             </div>
           </div>
         </header>
