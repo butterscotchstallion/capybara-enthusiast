@@ -32,6 +32,9 @@ function App() {
                   <li>
                     <a href='#ecology'>Ecology</a>
                   </li>
+                  <li>
+                    <a href='#facts'>Facts</a>
+                  </li>
                 </ol>
               </div>
             </section>
@@ -93,6 +96,21 @@ function App() {
               alt='Yellow-headed caracara on a capybara'
             />
             <figcaption>Yellow-headed caracara on a capybara</figcaption>
+          </figure>
+        </section>
+
+        <section className='wrapper' id='facts'>
+          <article className='capy-facts-area grid-item'>
+            <h2>Facts</h2>
+            <ul>
+              <li>World's biggest rodent</li>
+              <li>Capybara are closely related to guinea pigs.</li>
+              <li>They are semi-aquatic mammals.</li>
+            </ul>
+          </article>
+          <figure className='capy-figure grid-item'>
+            <img src='/images/capybara-3.jpg' alt='Capybara family' />
+            <figcaption>Capybara family</figcaption>
           </figure>
         </section>
       </div>

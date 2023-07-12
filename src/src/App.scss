@@ -20,6 +20,13 @@ h2 {
     margin-bottom: .5rem;
 }
 
+section ul {
+    li {
+        margin-left: 1.5rem;
+        list-style: circle;
+    }
+}
+
 .grid-item {
     flex: 1 0 0;
 }
