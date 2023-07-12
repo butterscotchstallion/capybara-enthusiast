@@ -106,6 +106,7 @@ function App() {
               <li>World's biggest rodent</li>
               <li>Capybara are closely related to guinea pigs.</li>
               <li>They are semi-aquatic mammals.</li>
+              <li>They can run as fast as 35 kph.</li>
             </ul>
           </article>
           <figure className='capy-figure grid-item'>
